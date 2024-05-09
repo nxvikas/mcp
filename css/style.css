@@ -1,0 +1,129 @@
+.bg-dark{
+    background-color: #2d3644 !important;
+}
+.fa-bars:before{
+    color: rgb(0, 0, 0);
+}
+.carousel-item img{
+    height: 800px;
+    object-fit: cover;
+}
+.nav-link{
+    font-size: 16px;
+}
+.card-img, .card-img-top{
+    height: 400px;
+    object-fit: cover;
+}
+.border-bottom{
+    border-bottom: none;
+}
+.navbar-brand{
+    color: #000000;
+}
+a{
+    transition: .3s;
+}
+a:hover{
+    color: #5a3197;
+    transition: .5s;
+}
+.icons{
+    display: flex;
+}
+i{
+    font-size: 20px;
+}
+.team{
+    background-color: #E2E1E1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.progress{
+    font-size: 20px;
+    background-color: #ffffff;
+    height: 40px;
+    width: 80%;
+}
+.progress-bar{
+    background-color: #333;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.list-group-horizontal{
+    align-items: center;
+    justify-content: space-between;
+}
+.list-group-item{
+    font-size: 20px;
+    border: 1px solid #E2E1E1;
+    background-color: #E2E1E1;
+    text-align: center;
+}
+.list-group-horizontal>.list-group-item+.list-group-item{
+    border-left-width: 1px;
+}
+.col img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col a{
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    background-color:#E2E1E1;
+    font-size: 20px;
+}
+.col a:hover{
+    color: #000000;
+    cursor: pointer;
+    background-color: #b8b8b8;
+}
+.row .g-0 .col{
+    background-color:#E2E1E1;
+}
+.row .g-0 .col h5{
+    color:#333;
+    font-weight: bold;
+}
+
+form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form-label{
+    font-size: 20px;
+}
+.form-control{
+    height: 50px;
+    font-size: 16px;
+}
+.form-select{
+    height: 50px;
+    font-size: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
